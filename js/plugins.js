@@ -1,7 +1,7 @@
 // Avoid `console` errors in browsers that lack a console.
 "use strict";
 
-$(window).ready(function() {
+$(window).ready( function() {
 	$(".loader").delay(500).fadeOut();
 	$("#mask").delay(1000).fadeOut("slow");
 });
@@ -135,7 +135,7 @@ $(document).ready(function(){
 				var saturation = 100;
                 break;
         }	
-		var latlng = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		var latlng = new google.maps.LatLng(40.712503557180824,-74.00073790361023);
 		var styles = [
 			{
 				"featureType": "landscape",
@@ -205,7 +205,7 @@ $(document).ready(function(){
 		 styles: styles
 		};
 		var wpgmappitymap = new google.maps.Map(document.getElementById('wpgmappitymap'), options);
-		var point0 = new google.maps.LatLng(40.712503557180824,-74.00073790361023); <!-- (Fist Value Longitude, Second Value Latitude), can obtain YOUR coordenates here!: http://universimmedia.pagesperso-orange.fr/geo/loc.htm -->
+		var point0 = new google.maps.LatLng(40.712503557180824,-74.00073790361023);
 		var marker0= new google.maps.Marker({
 		 position : point0,
 		 map : wpgmappitymap,
