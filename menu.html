@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Elixir - HTML Template</title>
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Yellowtail%7cCabin:400,500,600,700,400italic,700italic%7cLibre+Baskerville:400italic%7cGreat+Vibes%7cOswald:400,300,700%7cOpen+Sans:600italic,700' rel='stylesheet' type='text/css'>
+
+    <!-- META TAGS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/elixir.css" />
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/YTPlayer.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swipebox.css">
+
+
+ 
+    <style>
+        section.menu {
+            background: none;
+        }
+
+        #header {
+            position: fixed;
+            top:0px;
+            left: 0px;
+            z-index:1001;
+            width: 100%;
+            height: 90px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #fff!important;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.11);
+            padding-top: 20px;
+        }
+
+        #header .menu-item a {
+            color: #818181;
+        }
+        #header.overflow {
+            top:-100px;
+            left: 0px;
+            background-color: #fff!important;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.11);
+            -webkit-transition: all 0.3s ease-in;
+            -o-transition: all 0.3s ease-in;
+            transition: all 0.3s ease-in;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+ 
+  
+
+     
+    <!--[if lt IE 9]>
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <script src="./js/html5shiv.js"></script>
+        <script src="./js/respond.js"></script>
+    <![endif]-->
+</head>
+<body>
+		
+        
+        <!-- BEGIN HEADER -->
+        <header id="header" role="banner" class="">
+            <div class="jt_row container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle menu" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand normal logo" href="#home"><div class="logo_elixir dark"></div></a>
+                    <a class="navbar-brand mini" href="#home"><div class="logo_elixir dark"></div></a>
+                    <a class="navbar-brand mini darker" href="#home"><div class="logo_elixir dark"></div></a>
+                </div>
+
+                <!-- BEGIN NAVIGATION MENU-->
+                <nav class="collapse navbar-collapse navbar-right navbar-main-collapse" role="navigation">
+                    <ul id="nav" class="nav navbar-nav navigation">
+                        <li class="page-scroll menu-item"><a href="index.html">Home</a></li>
+                        <li class="page-scroll menu-item"><a href="index.html">About</a></li>
+                        <li class="page-scroll menu-item current"><a href="#menu">Menu</a></li>
+                        <li class="page-scroll menu-item"><a href="index.html">Gallery</a></li>
+                        <li class="page-scroll menu-item"><a href="index.html">Reservations</a></li>
+                        <li class="page-scroll menu-item"><a href="index.html">Location</a></li>
+                    </ul>
+                </nav>
+                <!-- EN NAVIGATION MENU -->
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+
+
+
+      
+
+
+
+        <!-- BEGIN MENU SECTION -->
+        <section id="menu" class="section menu">
+
+            <div class="container">
+                    <div class="jt_row jt_row-fluid row">
+
+                        <div class="col-md-12 jt_col column_container">
+                         <div class="voffset100"></div>
+                            <div class="title first">Steaks</div>
+                            <div class="voffset10"></div>
+                            <div class="subtitle">Exclusive and delicious beef</div>
+                            <img class="center" src="images/steaks.png" alt="Steaks">
+                            
+                        </div>
+                        
+                        <div class="col-md-4 jt_col column_container">    
+                        <div class="voffset10"></div>
+                            <ul class="menu">
+                                <li>
+                                    Ribeye Steak
+                                    <div class="detail">A classic cut of steak known for its rich, marbled flavor and tenderness.<span class="price">$14.49</span></div>
+                                </li>
+                                <li>
+                                    Filet Mignon
+                                    <div class="detail">A lean and tender cut of beef, often served wrapped in bacon or topped with a sauce.<span class="price">$20.50</span></div>
+                                </li>
+                                <li>
+                                    New York Strip
+                                    <div class="detail">A popular cut of steak with a balanced flavor and tenderness.<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    T-Bone Steak
+                                    <div class="detail">A steak cut from the short loin, featuring a T-shaped bone and two different types of meat on either side.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Porterhouse Steak
+                                    <div class="detail">Similar to the T-bone steak, but with a larger portion of the tenderloin.<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                        <div class="col-md-4 jt_col column_container"> 
+                        <div class="voffset10"></div>   
+                            <ul class="menu">
+                                <li>
+                                    Flank Steak
+                                    <div class="detail">A lean cut of beef with a bold flavor, often used in stir-fries and fajitas.<span class="price">$14.49</span></div>
+                                </li>
+                                <li>
+                                    Skirt Steak
+                                    <div class="detail">Another lean cut of beef, with a rich and beefy flavor.<span class="price">$20.50</span></div>
+                                </li>
+                                <li>
+                                    Hanger Steak
+                                    <div class="detail">A flavorful cut of beef with a coarse texture, often served with a chimichurri sauce.<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Flat Iron Steak 
+                                    <div class="detail">A relatively new cut of steak, known for its tenderness and marbling.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Sirloin Steak
+                                    <div class="detail">A versatile cut of steak with a bold flavor and moderate tenderness.<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 jt_col column_container">
+                        <div class="voffset10"></div>    
+                            <ul class="menu">
+                                <li>
+                                    Bavette Steak
+                                    <div class="detail">A flavorful cut of beef that comes from the flank, known for its robust taste.<span class="price">$14.49</span></div>
+                                </li>
+                                <li>
+                                    Tomahawk Steak
+                                    <div class="detail">A bone-in ribeye steak, often served as a showstopper due to its impressive presentation.<span class="price">$20.50</span></div>
+                                </li>
+                                <li>
+                                    Chateaubriand
+                                    <div class="detail">A thick cut of beef taken from the center of the tenderloin, often served with a rich sauce.<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Beef Wellington
+                                    <div class="detail">A fillet of beef coated in pâté and wrapped in puff pastry, often served with a mushroom sauce.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Steak Tartare
+                                    <div class="detail">A dish made with raw ground beef, seasoned and served with toppings like capers, onions, and egg yolk.<span class="price">$17.99</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="jt_row jt_row-fluid row">
+                        <div class="col-md-12 jt_col column_container">
+                            <div class="title">Burgers</div>
+                            <div class="voffset10"></div>
+                            <div class="subtitle">Exclusive and delicious burgers</div>
+                            <img class="center" src="images/burgers.jpg" alt="Burgers">
+                            
+                        </div>
+                        
+                        <div class="col-md-4 jt_col column_container">    
+                        <div class="voffset30"></div>
+                            <ul class="menu">
+                                <li>
+                                    Classic Cheeseburger
+                                    <div class="detail">A beef patty with melted cheese, lettuce, tomato, onion, and condiments on a bun.<span class="price">$9.49</span></div>
+                                </li>
+                                <li>
+                                    Bacon Cheeseburger
+                                    <div class="detail">A cheeseburger with crispy bacon added to it.<span class="price">$8.50</span></div>
+                                </li>
+                                <li>
+                                    BBQ Burger
+                                    <div class="detail">A cheeseburger with BBQ sauce, onion rings, and cheddar cheese.<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Mushroom Swiss Burger 
+                                    <div class="detail">A cheeseburger with sautéed mushrooms and Swiss cheese.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Jalapeño Burger 
+                                    <div class="detail">A cheeseburger with jalapeño peppers, spicy mayo, and pepper jack cheese.<span class="price">$8.50</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                        <div class="col-md-4 jt_col column_container">
+                        <div class="voffset30"></div>    
+                            <ul class="menu">
+                                <li>
+                                    Double Cheeseburger
+                                    <div class="detail">Two beef patties with two slices of cheese, lettuce, tomato, onion, and condiments on a bun.<span class="price">$9.49</span></div>
+                                </li>
+                                <li>
+                                    Veggie Burger
+                                    <div class="detail">A patty made from vegetables and grains, served with lettuce, tomato, onion, and condiments on a bun.<span class="price">$8.50</span></div>
+                                </li>
+                                <li>
+                                    Hawaiian Burger 
+                                    <div class="detail">A cheeseburger with grilled pineapple, teriyaki sauce, and Swiss cheese.<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Black Bean Burger
+                                    <div class="detail">A patty made from black beans, served with lettuce, tomato, onion, and condiments on a bun.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Buffalo Burger
+                                    <div class="detail">A burger patty made from buffalo meat, served with lettuce, tomato, onion, and condiments on a bun.<span class="price">$8.50</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 jt_col column_container"> 
+                        <div class="voffset30"></div>   
+                            <ul class="menu">
+                                <li>
+                                    Turkey Burger
+                                    <div class="detail">A burger patty made from ground turkey, served with lettuce, tomato, onion, and condiments on a bun.<span class="price">$9.49</span></div>
+                                </li>
+                                <li>
+                                    Steak Burger
+                                    <div class="detail">A burger patty made from ground steak, served with lettuce, tomato, onion, and condiments on a bun.<span class="price">$8.50</span></div>
+                                </li>
+                                <li>
+                                    California Burger
+                                    <div class="detail">A cheeseburger with avocado, sprouts, and a special sauce.<span class="price">$9.99</span></div>
+                                </li>
+                                <li>
+                                    Pimento Cheeseburger
+                                    <div class="detail">A cheeseburger with homemade pimento cheese spread.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Breakfast Burger 
+                                    <div class="detail">A burger patty with a fried egg, bacon, and cheese on a bun.<span class="price">$8.50</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="jt_row jt_row-fluid row">
+                        <div class="col-md-12 jt_col column_container">
+                            <div class="title">Desserts</div>
+                            <div class="voffset10"></div>
+                            <div class="subtitle">Exclusive and delicious desserts</div>
+                            <img class="center" src="images/desserts.png" alt="Desserts">
+                            
+                        </div>
+                        
+                        <div class="col-md-4 jt_col column_container">    
+                        <div class="voffset60"></div>
+                            <ul class="menu">
+                                <li>
+                                    Chocolate Cake
+                                    <div class="detail">A rich, moist chocolate cake with chocolate frosting.<span class="price">$7.49</span></div>
+                                </li>
+                                <li>
+                                    Cheesecake
+                                    <div class="detail">A creamy and decadent dessert made with cream cheese, sugar, and a graham cracker crust.<span class="price">$6.50</span></div>
+                                </li>
+                                <li>
+                                    Apple Pie
+                                    <div class="detail">A classic pie made with sweet and tart apples and cinnamon.<span class="price">$4.50</span></div>
+                                </li>
+                                <li>
+                                    Brownies
+                                    <div class="detail">A dense and fudgy chocolate dessert often served with nuts and chocolate chips.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Tiramisu
+                                    <div class="detail">A layered Italian dessert made with coffee-soaked ladyfingers and mascarpone cheese.<span class="price">$8.50</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                      
+                        <div class="col-md-4 jt_col column_container">
+                        <div class="voffset60"></div>    
+                            <ul class="menu">
+                                <li>
+                                    Crème Brûlée
+                                    <div class="detail">A custard dessert with a caramelized sugar crust on top.<span class="price">$7.49</span></div>
+                                </li>
+                                <li>
+                                    Strawberry Shortcake 
+                                    <div class="detail">A dessert made with layers of fluffy cake, whipped cream, and fresh strawberries.<span class="price">$6.50</span></div>
+                                </li>
+                                <li>
+                                    Ice Cream Sundae
+                                    <div class="detail">A dessert made with scoops of ice cream, hot fudge, whipped cream, and toppings like nuts and cherries.<span class="price">$4.50</span></div>
+                                </li>
+                                <li>
+                                    Lemon Bars
+                                    <div class="detail">A dessert made with a shortbread crust and a tangy lemon filling.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Chocolate Chip Cookies
+                                    <div class="detail">A classic dessert made with butter, sugar, flour, and chocolate chips.<span class="price">$8.50</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 jt_col column_container">
+                        <div class="voffset60"></div>    
+                            <ul class="menu">
+                                <li>
+                                    Carrot Cake
+                                    <div class="detail">A moist and flavorful cake made with carrots, spices, and cream cheese frosting.<span class="price">$7.49</span></div>
+                                </li>
+                                <li>
+                                    Pecan Pie
+                                    <div class="detail">A sweet and nutty pie made with pecans and a filling of brown sugar and corn syrup.<span class="price">$6.50</span></div>
+                                </li>
+                                <li>
+                                    Chocolate Mousse
+                                    <div class="detail">A light and airy dessert made with whipped cream and chocolate.<span class="price">$4.50</span></div>
+                                </li>
+                                <li>
+                                    Banana Bread
+                                    <div class="detail">A sweet bread made with ripe bananas and nuts, often served with butter or cream cheese.<span class="price">$7.99</span></div>
+                                </li>
+                                <li>
+                                    Fruit Tart
+                                    <div class="detail">A dessert made with a pastry crust, pastry cream, and fresh fruit on top.<span class="price">$8.50</span></div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col-md-4 col-md-offset-4 jt_col column_container">  
+                            <div class="voffset60"></div>
+                            <div class="ornament"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="voffset60"></div>
+        </section>
+        <!-- END MENU SECTION -->
+
+
+
+
+      
+
+
+
+        
+
+
+
+
+
+
+
+        <!-- BEGIN CONTACT SECTION -->
+        <section id="contact" class="section contact dark">
+            <div class="container">
+                <div class="jt_row jt_row-fluid row">
+
+                    <div class="col-md-12 jt_col column_container">
+                        <h2 class="section-title">Contact</h2>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 jt_col column_container">
+                        <div class="section-subtitle">
+                            W325 State Road 123 Mondovi, WI  (Wisconsin)   98746-54321
+                        </div>
+                    </div>
+                        <form action="mail.php" method="post" id="contactform" class="contact-form">
+                                <div class="col-md-6 jt_col column_container">    
+                                    <input type="text" id="name" name="name" class="text name required" placeholder="Name" >
+                                    <input type="email" id="email" name="email" class="tex email required" placeholder="Email" >
+                                    <input type="text" id="subject" name="subject" placeholder="Subject" >
+                                </div>
+
+                                <div class="col-md-6 jt_col column_container">    
+                                     <textarea id="message" name="message" class="text area required" placeholder="Message" rows="10"></textarea>
+                                </div>
+
+                                <div class="col-md-4 col-md-offset-4 jt_col column_container">  
+                                <div class="formSent"><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</div>   
+                                <input type="submit" class="button contact center" value="Submit" >
+                                </div>
+                                
+                            </form>
+                    <div class="voffset100"></div>
+                </div>
+                    <div class="voffset50"></div>
+            </div>
+            
+        </section>
+        <!-- END CONTACT SECTION -->
+
+
+
+
+
+        <!-- BEGIN MAP SECTION -->
+        <section id="maps">
+            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <div class="map-content">
+                <div class="wpgmappity_container inner-map" id="wpgmappitymap"></div>
+            </div>
+        </section>
+        <!-- END MAP SECTION -->
+
+
+    
+
+        <!-- BEGIN FOOTER -->
+        <footer id="footer" class="section" role="contentinfo">
+            <div class="container">
+                <ul class="social">
+                    <li><a href="#" class="icon tw"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="icon fb"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="icon in"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#" class="icon go"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+    <a href="#0" class="cd-top">Top</a>
+    <!-- BEGIN Scripts-->
+
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/pathLoader.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.inview.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.swipebox.js"></script>
+
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+        $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+    </script>
+
+
+    
+    <!-- END Scripts -->
+
+    
+</body>
+</html>
