@@ -1,12 +1,7 @@
 // Avoid `console` errors in browsers that lack a console.
 "use strict";
 
-$(window).on('load', function() {
-	$(".loader").delay(500).fadeOut();
-	$("#mask").delay(1000).fadeOut("slow");
-});
-
-$(window).load( function() {
+$(window).ready(function() {
 	$(".loader").delay(500).fadeOut();
 	$("#mask").delay(1000).fadeOut("slow");
 });
